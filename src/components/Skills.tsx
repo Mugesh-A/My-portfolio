@@ -26,6 +26,17 @@ const Skills = () => {
     },
   ];
 
+  const areasOfInterest = [
+    'Cloud Architecture and Solutions',
+    'DevOps Practices and Implementation',
+    'Infrastructure as Code',
+    'Containerization and Orchestration',
+    'Cybersecurity in Cloud Environments',
+    'Networking and Network Security',
+    'Automation and CI/CD Pipelines',
+    'Serverless Computing'
+  ];
+
   return (
     <section id="skills" className="section bg-white">
       <div className="max-w-5xl mx-auto">
@@ -68,30 +79,15 @@ const Skills = () => {
         </div>
         
         <div className="mt-16 glass-card p-8 animate-fade-in opacity-0 [animation-delay:1000ms]">
-          <h3 className="text-xl font-semibold text-gray-900 mb-6 text-center">Skill Proficiency</h3>
+          <h3 className="text-xl font-semibold text-gray-900 mb-6 text-center">Areas of Interest</h3>
           
-          <div className="space-y-6">
-            {[
-              { name: 'Cloud Computing (AWS)', percentage: 85 },
-              { name: 'DevOps Practices', percentage: 80 },
-              { name: 'Programming (Java, Python)', percentage: 75 },
-              { name: 'Networking', percentage: 70 },
-              { name: 'Linux Administration', percentage: 75 },
-            ].map((skill) => (
-              <div key={skill.name}>
-                <div className="flex justify-between mb-1">
-                  <span className="text-gray-700">{skill.name}</span>
-                  <span className="text-gray-500">{skill.percentage}%</span>
-                </div>
-                <div className="w-full bg-gray-200 rounded-full h-2.5">
-                  <div 
-                    className="bg-blue-600 h-2.5 rounded-full transition-all duration-1000 ease-out origin-left scale-x-0 animate-[scale-x-100_1.5s_ease-out_forwards]"
-                    style={{ 
-                      width: `${skill.percentage}%`,
-                      animationDelay: '500ms' 
-                    }}
-                  ></div>
-                </div>
+          <div className="flex flex-wrap justify-center gap-4">
+            {areasOfInterest.map((interest, index) => (
+              <div 
+                key={index}
+                className="px-5 py-3 bg-blue-50 border border-blue-100 rounded-lg text-blue-800 shadow-sm transition-all hover:bg-blue-100"
+              >
+                {interest}
               </div>
             ))}
           </div>

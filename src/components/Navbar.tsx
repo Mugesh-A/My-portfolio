@@ -40,7 +40,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <a href="#home" className="flex items-center text-blue-600 font-bold text-xl">
-              <span className="text-balance">LOKESH</span>
+              <span className="text-balance">MUGESH</span>
             </a>
           </div>
           

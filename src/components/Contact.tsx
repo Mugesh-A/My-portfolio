@@ -51,8 +51,8 @@ const Contact = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium text-gray-900">Email</h4>
-                  <a href="mailto:anbhazhaganlokeashm@gmail.com" className="text-blue-600 hover:underline">
-                    anbhazhaganlokeashm@gmail.com
+                  <a href="mailto:anbazhaganmugesh@gmail.com" className="text-blue-600 hover:underline">
+                    anbazhaganmugesh@gmail.com
                   </a>
                 </div>
               </div>
@@ -83,7 +83,7 @@ const Contact = () => {
                 </div>
                 <div className="ml-4">
                   <h4 className="text-lg font-medium text-gray-900">LinkedIn</h4>
-                  <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
+                  <a href="https://www.linkedin.com/in/mugesh-anbazhagan/" target="_blank" rel="noopener noreferrer" className="text-blue-600 hover:underline">
                     Connect on LinkedIn
                   </a>
                 </div>

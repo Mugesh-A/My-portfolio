@@ -67,7 +67,7 @@ const About = () => {
               <ul className="space-y-3">
                 <li className="flex">
                   <span className="font-medium w-24 text-gray-900">Name:</span>
-                  <span className="text-gray-700">Lokesh Anbhazhagan</span>
+                  <span className="text-gray-700">Mugesh Anbazhagan</span>
                 </li>
                 <li className="flex">
                   <span className="font-medium w-24 text-gray-900">Location:</span>
@@ -75,8 +75,8 @@ const About = () => {
                 </li>
                 <li className="flex">
                   <span className="font-medium w-24 text-gray-900">Email:</span>
-                  <a href="mailto:anbhazhaganlokeashm@gmail.com" className="text-blue-600 hover:underline">
-                    anbhazhaganlokeashm@gmail.com
+                  <a href="mailto:anbazhaganmugesh@gmail.com" className="text-blue-600 hover:underline">
+                    anbazhaganmugesh@gmail.com
                   </a>
                 </li>
                 <li className="flex">

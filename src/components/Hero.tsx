@@ -15,7 +15,7 @@ const Hero = () => {
           <div className="animate-fade-in-right [animation-delay:200ms]">
             <p className="text-blue-600 font-medium mb-3">Cloud Computing & DevOps Engineer</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gray-900">
-              Hi, I'm <span className="highlight-container"><span className="highlight">Lokesh Anbhazhagan</span></span>
+              Hi, I'm <span className="highlight-container"><span className="highlight">Mugesh Anbazhagan</span></span>
             </h1>
             <p className="text-lg text-gray-700 mb-8 max-w-lg leading-relaxed">
               I leverage my technical expertise to develop innovative solutions in cloud computing, networking, and DevOps.
@@ -38,14 +38,14 @@ const Hero = () => {
             
             <div className="flex items-center gap-4">
               <a 
-                href="mailto:anbhazhaganlokeashm@gmail.com" 
+                href="mailto:anbazhaganmugesh@gmail.com" 
                 className="text-gray-600 hover:text-blue-600 transition-colors"
                 aria-label="Email"
               >
                 <Mail className="h-5 w-5" />
               </a>
               <a 
-                href="https://linkedin.com/in/yourusername" 
+                href="https://www.linkedin.com/in/mugesh-anbazhagan/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-gray-600 hover:text-blue-600 transition-colors"
@@ -54,7 +54,7 @@ const Hero = () => {
                 <Linkedin className="h-5 w-5" />
               </a>
               <a 
-                href="https://github.com/yourusername" 
+                href="https://github.com/Mugesh-A/" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="text-gray-600 hover:text-blue-600 transition-colors"
@@ -75,7 +75,7 @@ const Hero = () => {
                 <pre className="text-sm md:text-base font-mono bg-gray-50 p-4 rounded-lg shadow-sm overflow-auto">
                   <code className="language-javascript">
 {`const developer = {
-  name: 'Lokesh Anbhazhagan',
+  name: 'Mugesh Anbazhagan',
   location: 'Coimbatore, Tamil Nadu',
   education: 'B.E. Electronics and Communication',
   expertise: [
