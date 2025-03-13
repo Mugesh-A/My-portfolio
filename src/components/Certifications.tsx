@@ -7,32 +7,32 @@ const Certifications = () => {
     {
       title: 'Python Basics Certification',
       issuer: 'HackerRank',
-      date: 'January 2023',
-      link: '#',
+      date: 'June 2024',
+      link: 'https://www.hackerrank.com/certificates/87bea328bdda',
       logo: 'HackerRank',
       color: 'green',
     },
     {
       title: 'Data Structures and Algorithms Using Java',
       issuer: 'NPTEL',
-      date: 'December 2022',
-      link: '#',
+      date: 'OCT 2024',
+      link: 'https://www.linkedin.com/feed/update/urn:li:activity:7266673361169059840/',
       logo: 'NPTEL',
       color: 'blue',
     },
     {
       title: 'AWS Academy Cloud Foundations',
       issuer: 'AWS',
-      date: 'February 2023',
-      link: '#',
+      date: 'October 2024',
+      link: 'https://www.credly.com/badges/845a8af4-e6e9-447b-bfaa-95241a2b1331/public_url',
       logo: 'AWS',
       color: 'orange',
     },
     {
       title: 'Certified Python Developer',
       issuer: 'Skillrack',
-      date: 'November 2022',
-      link: '#',
+      date: 'Mar-2023',
+      link: 'https://www.skillrack.com/faces/free/certificate.xhtml?t=cert&id=431102&key=LRH',
       logo: 'Skillrack',
       color: 'purple',
     },
@@ -67,6 +67,8 @@ const Certifications = () => {
                   </p>
                   <a 
                     href={certification.link} 
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center text-blue-600 hover:text-blue-700 text-sm"
                   >
                     View Certificate <ExternalLink className="ml-1 h-3 w-3" />
