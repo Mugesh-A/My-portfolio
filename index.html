@@ -1,18 +1,667 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>cloudfolio-landing</title>
-    <meta name="description" content="Lovable Generated Project" />
-    <meta name="author" content="Lovable" />
-    <meta property="og:image" content="/og-image.png" />
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mugesh Anbazhagan | Portfolio</title>
+  <meta name="description" content="Mugesh Anbazhagan - Cloud Computing & DevOps Engineer Portfolio">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap">
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar">
+    <div class="container">
+      <div class="navbar-content">
+        <a href="#home" class="navbar-logo">MUGESH</a>
+        
+        <!-- Desktop Nav -->
+        <div class="navbar-links desktop-nav">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#certifications" class="nav-link">Certifications</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        
+        <!-- Mobile Nav Button -->
+        <button id="mobile-nav-toggle" class="mobile-nav-toggle" aria-label="Toggle Navigation">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+    
+    <!-- Mobile Nav Menu -->
+    <div id="mobile-nav" class="mobile-nav">
+      <div class="container">
+        <a href="#home" class="mobile-nav-link">Home</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#projects" class="mobile-nav-link">Projects</a>
+        <a href="#skills" class="mobile-nav-link">Skills</a>
+        <a href="#certifications" class="mobile-nav-link">Certifications</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </div>
+    </div>
+  </nav>
 
-  <body>
-    <div id="root"></div>
-    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
-    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <p class="subtitle">Cloud Computing & DevOps Engineer</p>
+          <h1 class="title">
+            Hi, I'm <span class="highlight-container"><span class="highlight">Mugesh Anbazhagan</span></span>
+          </h1>
+          <p class="description">
+            I leverage my technical expertise to develop innovative solutions in cloud computing, networking, and DevOps.
+          </p>
+          
+          <div class="hero-buttons">
+            <a href="#contact" class="btn btn-primary">
+              Contact Me <i data-lucide="arrow-right"></i>
+            </a>
+            <a href="#projects" class="btn btn-secondary">
+              View Projects
+            </a>
+          </div>
+          
+          <div class="social-links">
+            <a href="mailto:anbazhaganmugesh@gmail.com" class="social-link" aria-label="Email">
+              <i data-lucide="mail"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mugesh-anbazhagan/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+              <i data-lucide="linkedin"></i>
+            </a>
+            <a href="https://github.com/Mugesh-A/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub">
+              <i data-lucide="github"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="hero-card">
+          <div class="glass-card">
+            <div class="floating-bubble bubble-1"></div>
+            <div class="floating-bubble bubble-2"></div>
+            
+            <div class="code-block">
+              <h2 class="code-title">// introduction.js</h2>
+              <pre><code class="language-javascript">const developer = {
+  name: 'Mugesh Anbazhagan',
+  location: 'Coimbatore, Tamil Nadu',
+  education: 'B.E. Electronics and Communication',
+  expertise: [
+    'AWS Cloud Solutions',
+    'DevOps Implementation',
+    'Linux Administration',
+    'Networking'
+  ],
+  languages: ['Java', 'Python'],
+  goal: 'Developing innovative solutions'
+};</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">About Me</h2>
+        <div class="title-line"></div>
+      </div>
+      
+      <div class="about-content fade-in">
+        <p class="section-description">
+          I'm a passionate Cloud Computing and DevOps engineer with a strong foundation in Electronics and Communication Engineering. I focus on leveraging technical expertise to develop innovative solutions in dynamic environments, contributing to the success of organizations while enhancing my skills in cloud computing, networking, and DevOps.
+        </p>
+        
+        <div class="cards-grid">
+          <div class="glass-card card-hover">
+            <div class="card-icon">
+              <div class="icon-bg">
+                <i data-lucide="graduation-cap"></i>
+              </div>
+              <h3 class="card-title">Education</h3>
+            </div>
+            
+            <div class="education-items">
+              <div class="education-item">
+                <h4 class="education-title">B.E. Electronics and Communication Engineering</h4>
+                <p class="education-school">Karpagam Institute of Technology, Coimbatore</p>
+                <div class="education-date">
+                  <i data-lucide="clock"></i>
+                  <span>Nov 2022 - Present</span>
+                </div>
+                <p class="education-grade">CGPA: 8.15/10</p>
+              </div>
+              
+              <div class="education-item">
+                <h4 class="education-title">High School - State Board</h4>
+                <p class="education-school">Karpagam Matric Hr. Sec. School, Namakkal</p>
+                <div class="education-date">
+                  <i data-lucide="clock"></i>
+                  <span>Mar 2019 - May 2022</span>
+                </div>
+                <p class="education-grade">HSC: 78%, SSLC: 88%</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="glass-card card-hover">
+            <div class="card-icon">
+              <div class="icon-bg">
+                <i data-lucide="map-pin"></i>
+              </div>
+              <h3 class="card-title">Personal Details</h3>
+            </div>
+            
+            <ul class="details-list">
+              <li class="details-item">
+                <span class="details-label">Name:</span>
+                <span class="details-value">Mugesh Anbazhagan</span>
+              </li>
+              <li class="details-item">
+                <span class="details-label">Location:</span>
+                <span class="details-value">Coimbatore, Tamil Nadu, India - 641021</span>
+              </li>
+              <li class="details-item">
+                <span class="details-label">Email:</span>
+                <a href="mailto:anbazhaganmugesh@gmail.com" class="details-link">
+                  anbazhaganmugesh@gmail.com
+                </a>
+              </li>
+              <li class="details-item">
+                <span class="details-label">Phone:</span>
+                <span class="details-value">+91 8110877913</span>
+              </li>
+              <li class="details-item details-interests">
+                <span class="details-label">Interests:</span>
+                <div class="interests-tags">
+                  <span class="interest-tag">Cloud Computing</span>
+                  <span class="interest-tag">Networking</span>
+                  <span class="interest-tag">DevOps</span>
+                  <span class="interest-tag">Linux</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section bg-cloud">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Projects</h2>
+        <div class="title-line"></div>
+        <p class="section-description">
+          Showcasing my technical implementations and solutions
+        </p>
+      </div>
+      
+      <div class="projects-container">
+        <!-- Project 1 -->
+        <div class="project-card glass-card fade-in">
+          <div class="project-content">
+            <div class="project-icon">
+              <div class="icon-bg-large">
+                <i data-lucide="server"></i>
+              </div>
+            </div>
+            
+            <div class="project-details">
+              <h3 class="project-title">
+                VPC Architecture with Public and Private Subnets – AWS
+              </h3>
+              
+              <ul class="project-points">
+                <li class="project-point">
+                  <span class="project-point-marker">•</span>
+                  <p>
+                    Designed and implemented a VPC with public and private subnets across two Availability Zones.
+                  </p>
+                </li>
+                <li class="project-point">
+                  <span class="project-point-marker">•</span>
+                  <p>
+                    Each public subnet contains a NAT gateway and a load balancer node.
+                  </p>
+                </li>
+                <li class="project-point">
+                  <span class="project-point-marker">•</span>
+                  <p>
+                    Servers are deployed in private subnets, managed by an Auto Scaling group, and receive traffic from the load balancer.
+                  </p>
+                </li>
+                <li class="project-point">
+                  <span class="project-point-marker">•</span>
+                  <p>
+                    Ensured high availability and fault tolerance by distributing resources across multiple Availability Zones.
+                  </p>
+                </li>
+              </ul>
+              
+              <div class="project-tags">
+                <span class="project-tag">AWS</span>
+                <span class="project-tag">EC2</span>
+                <span class="project-tag">VPC</span>
+                <span class="project-tag">Load Balancing</span>
+                <span class="project-tag">Auto Scaling</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="project-card glass-card fade-in">
+          <div class="project-content">
+            <div class="project-icon">
+              <div class="icon-bg-large">
+                <i data-lucide="git-branch"></i>
+              </div>
+            </div>
+            
+            <div class="project-details">
+              <h3 class="project-title">
+                CI/CD Pipeline Implementation with AWS S3, GitLab, and Docker
+              </h3>
+              
+              <ul class="project-points">
+                <li class="project-point">
+                  <span class="project-point-marker">•</span>
+                  <p>
+                    Designed and implemented a CI/CD pipeline using GitLab for automated building, testing, and deployment.
+                  </p>
+                </li>
+                <li class="project-point">
+                  <span class="project-point-marker">•</span>
+                  <p>
+                    Integrated AWS S3 for storing build artifacts and configurations, ensuring smooth transfer between stages.
+                  </p>
+                </li>
+                <li class="project-point">
+                  <span class="project-point-marker">•</span>
+                  <p>
+                    Deployed applications with AWS Elastic Beanstalk and Docker containers for consistent environments.
+                  </p>
+                </li>
+                <li class="project-point">
+                  <span class="project-point-marker">•</span>
+                  <p>
+                    Managed GitLab branches with a main branch for production and sub-branches for testing and staging.
+                  </p>
+                </li>
+              </ul>
+              
+              <div class="project-tags">
+                <span class="project-tag">AWS S3</span>
+                <span class="project-tag">GitLab</span>
+                <span class="project-tag">Docker</span>
+                <span class="project-tag">CI/CD</span>
+                <span class="project-tag">Elastic Beanstalk</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="title-line"></div>
+        <p class="section-description">
+          Core competencies and technologies I work with
+        </p>
+      </div>
+      
+      <div class="skills-grid">
+        <div class="skill-card glass-card card-hover fade-in">
+          <div class="card-icon">
+            <div class="icon-bg">
+              <i data-lucide="code"></i>
+            </div>
+            <h3 class="card-title">Languages</h3>
+          </div>
+          
+          <div class="skill-tags">
+            <div class="skill-tag">Java</div>
+            <div class="skill-tag">Python</div>
+            <div class="skill-tag">Data Structures and Algorithms</div>
+            <div class="skill-tag">HTML/CSS</div>
+          </div>
+        </div>
+        
+        <div class="skill-card glass-card card-hover fade-in">
+          <div class="card-icon">
+            <div class="icon-bg">
+              <i data-lucide="server"></i>
+            </div>
+            <h3 class="card-title">AWS Services</h3>
+          </div>
+          
+          <div class="skill-tags">
+            <div class="skill-tag">EC2</div>
+            <div class="skill-tag">S3</div>
+            <div class="skill-tag">VPC</div>
+            <div class="skill-tag">Security Groups</div>
+            <div class="skill-tag">Load Balancing</div>
+            <div class="skill-tag">Auto Scaling</div>
+          </div>
+        </div>
+        
+        <div class="skill-card glass-card card-hover fade-in">
+          <div class="card-icon">
+            <div class="icon-bg">
+              <i data-lucide="github"></i>
+            </div>
+            <h3 class="card-title">Tools</h3>
+          </div>
+          
+          <div class="skill-tags">
+            <div class="skill-tag">VS Code</div>
+            <div class="skill-tag">Eclipse</div>
+            <div class="skill-tag">Git</div>
+            <div class="skill-tag">GitHub</div>
+            <div class="skill-tag">GitLab</div>
+            <div class="skill-tag">Docker</div>
+          </div>
+        </div>
+        
+        <div class="skill-card glass-card card-hover fade-in">
+          <div class="card-icon">
+            <div class="icon-bg">
+              <i data-lucide="terminal"></i>
+            </div>
+            <h3 class="card-title">Systems</h3>
+          </div>
+          
+          <div class="skill-tags">
+            <div class="skill-tag">Linux</div>
+            <div class="skill-tag">AWS Console</div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="interests-section glass-card fade-in">
+        <h3 class="interests-title">Areas of Interest</h3>
+        
+        <div class="interests-tags large">
+          <div class="interest-tag large">Cloud Architecture and Solutions</div>
+          <div class="interest-tag large">DevOps Practices and Implementation</div>
+          <div class="interest-tag large">Infrastructure as Code</div>
+          <div class="interest-tag large">Containerization and Orchestration</div>
+          <div class="interest-tag large">Cybersecurity in Cloud Environments</div>
+          <div class="interest-tag large">Networking and Network Security</div>
+          <div class="interest-tag large">Automation and CI/CD Pipelines</div>
+          <div class="interest-tag large">Serverless Computing</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="section bg-cloud">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Certifications</h2>
+        <div class="title-line"></div>
+        <p class="section-description">
+          Professional certifications and achievements
+        </p>
+      </div>
+      
+      <div class="certifications-grid">
+        <div class="certification-card glass-card card-hover fade-in">
+          <div class="certification-content">
+            <div class="certification-icon">
+              <div class="icon-bg">
+                <i data-lucide="award"></i>
+              </div>
+            </div>
+            <div class="certification-details">
+              <h3 class="certification-title">Python Basics Certification</h3>
+              <p class="certification-issuer">
+                HackerRank • January 2023
+              </p>
+              <a href="#" class="certification-link">
+                View Certificate <i data-lucide="external-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="certification-card glass-card card-hover fade-in">
+          <div class="certification-content">
+            <div class="certification-icon">
+              <div class="icon-bg">
+                <i data-lucide="award"></i>
+              </div>
+            </div>
+            <div class="certification-details">
+              <h3 class="certification-title">Data Structures and Algorithms Using Java</h3>
+              <p class="certification-issuer">
+                NPTEL • December 2022
+              </p>
+              <a href="#" class="certification-link">
+                View Certificate <i data-lucide="external-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="certification-card glass-card card-hover fade-in">
+          <div class="certification-content">
+            <div class="certification-icon">
+              <div class="icon-bg">
+                <i data-lucide="award"></i>
+              </div>
+            </div>
+            <div class="certification-details">
+              <h3 class="certification-title">AWS Academy Cloud Foundations</h3>
+              <p class="certification-issuer">
+                AWS • February 2023
+              </p>
+              <a href="#" class="certification-link">
+                View Certificate <i data-lucide="external-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="certification-card glass-card card-hover fade-in">
+          <div class="certification-content">
+            <div class="certification-icon">
+              <div class="icon-bg">
+                <i data-lucide="award"></i>
+              </div>
+            </div>
+            <div class="certification-details">
+              <h3 class="certification-title">Certified Python Developer</h3>
+              <p class="certification-issuer">
+                Skillrack • November 2022
+              </p>
+              <a href="#" class="certification-link">
+                View Certificate <i data-lucide="external-link"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="title-line"></div>
+        <p class="section-description">
+          Feel free to reach out for collaborations or just a friendly chat
+        </p>
+      </div>
+      
+      <div class="contact-container">
+        <div class="contact-info fade-in-right">
+          <h3 class="contact-info-title">Contact Information</h3>
+          
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i data-lucide="mail"></i>
+              </div>
+              <div class="contact-details">
+                <h4 class="contact-item-title">Email</h4>
+                <a href="mailto:anbazhaganmugesh@gmail.com" class="contact-link">
+                  anbazhaganmugesh@gmail.com
+                </a>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i data-lucide="phone"></i>
+              </div>
+              <div class="contact-details">
+                <h4 class="contact-item-title">Phone</h4>
+                <p class="contact-text">+91 8110877913</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i data-lucide="map-pin"></i>
+              </div>
+              <div class="contact-details">
+                <h4 class="contact-item-title">Location</h4>
+                <p class="contact-text">Coimbatore, Tamil Nadu, India - 641021</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i data-lucide="linkedin"></i>
+              </div>
+              <div class="contact-details">
+                <h4 class="contact-item-title">LinkedIn</h4>
+                <a href="https://www.linkedin.com/in/mugesh-anbazhagan/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                  Connect on LinkedIn
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form-container fade-in-left">
+          <div class="glass-card">
+            <h3 class="contact-form-title">Send a Message</h3>
+            
+            <form id="contact-form" class="contact-form">
+              <div class="form-group">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" id="name" name="name" class="form-input" placeholder="John Doe" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" id="email" name="email" class="form-input" placeholder="john@example.com" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="message" class="form-label">Message</label>
+                <textarea id="message" name="message" class="form-textarea" rows="4" placeholder="Your message here..." required></textarea>
+              </div>
+              
+              <button type="submit" id="submit-btn" class="submit-btn">
+                <span class="btn-text">Send Message</span>
+                <i data-lucide="send"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-info">
+          <h3 class="footer-title">Mugesh Anbazhagan</h3>
+          <p class="footer-subtitle">
+            Cloud Computing & DevOps Engineer
+          </p>
+          <div class="footer-social">
+            <a href="mailto:anbazhaganmugesh@gmail.com" class="footer-social-link" aria-label="Email">
+              <i data-lucide="mail"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/mugesh-anbazhagan/" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="LinkedIn">
+              <i data-lucide="linkedin"></i>
+            </a>
+            <a href="https://github.com/Mugesh-A/" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="GitHub">
+              <i data-lucide="github"></i>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer-links">
+          <h3 class="footer-links-title">Quick Links</h3>
+          <ul class="footer-nav">
+            <li><a href="#home" class="footer-nav-link">Home</a></li>
+            <li><a href="#about" class="footer-nav-link">About</a></li>
+            <li><a href="#projects" class="footer-nav-link">Projects</a></li>
+            <li><a href="#skills" class="footer-nav-link">Skills</a></li>
+            <li><a href="#certifications" class="footer-nav-link">Certifications</a></li>
+            <li><a href="#contact" class="footer-nav-link">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-contact">
+          <h3 class="footer-contact-title">Get In Touch</h3>
+          <p class="footer-contact-info">Coimbatore, Tamil Nadu, India</p>
+          <p class="footer-contact-info">Email: anbazhaganmugesh@gmail.com</p>
+          <p class="footer-contact-info">Phone: +91 8110877913</p>
+          
+          <button id="back-to-top" class="back-to-top">
+            <i data-lucide="arrow-up"></i>
+            Back to Top
+          </button>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="copyright">
+          &copy; <span id="current-year"></span> Mugesh Anbazhagan. All rights reserved.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast">
+    <div class="toast-content">
+      <i data-lucide="check-circle" class="toast-icon"></i>
+      <div class="toast-message">Message sent successfully!</div>
+    </div>
+    <div class="toast-progress"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
 </html>
